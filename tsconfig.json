@@ -2,11 +2,21 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
+
     "skipLibCheck": true,
+
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowJs": false,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
     "noEmit": true,
+
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",

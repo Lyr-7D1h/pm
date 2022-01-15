@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+
+    "allowJs": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "strict": true,
+
+    "allowUnreachableCode": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "script"]
+}
