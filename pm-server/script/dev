@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if which nix-shell &>/dev/null ; then
+  nix-shell -p entr sqlite --run "find src -type f | entr -r cargo run"
+  exit 0
+fi
+
+find src -type f | entr -r cargo run
